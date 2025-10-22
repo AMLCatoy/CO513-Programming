@@ -11,3 +11,4 @@ Simulator: [CPUlator ARMv7 System Simulator](https://cpulator.01xz.net/?sys=arm-
 ----
 ## Challenges <br/>
 ### Module 1: <br/>
+In Euclidean Algorithm for GCD, the "udiv" code causes an error in the program, as it is not available in ARMv7 32-bit, based on my research. At first, I inserted a udiv code from an s file from the internet, which successfully performs the division. However, it became a challenge to integrate it into my program as it exits the program while I still have several codes to run after it. In this case, I still have to do several tweaking from that codes. So, resolving the issue, I just made my own code for division based on the manual calculation.
