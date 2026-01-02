@@ -7,7 +7,7 @@ Simulator: [CPUlator ARMv7 System Simulator](https://cpulator.01xz.net/?sys=arm-
 | Module               | Contents               | Video |
 |------------------------|------------------------|-----|
 | 1: The ARM Assembly Language | <ul><li>Factorial Calculation</li><li>Euclidean Algorithm for GCD</li><li>Bitwise Parity Checker</li><li>Swap Nibbles in a Byte</li><li>Find the Maximum Value in an Array </li></ul> | [Module 1](https://youtu.be/qEHheLznXWg) |
-| 2: ARMv7 DE1-SoC I/O Devices | <ul><li>Counter Up/Down</li></ul> | [Module 2](https://youtu.be/qEHheLznXWg) |
+| 2: ARMv7 DE1-SoC I/O Devices | <ul><li>Counter Up/Down</li></ul> | [Module 2](https://youtu.be/y3JloB7ADv8) |
 
 ----
 ## Challenges & Insights <br/>
