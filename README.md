@@ -16,7 +16,7 @@ In the Euclidean Algorithm for GCD, the "udiv" code causes an error in the progr
 
 For the Bitwise Parity Checker, it was a challenge to make a way to determine whether the parity is odd or even. I skipped the previous problem (udiv) and proceeded to this problem at first. One way to determine is to check whether the number is divisible by 2 or not. As I did not have the division code yet at the time, I just depended on the value, 1, or the least significant bit, as it is the only odd number.  
 
-### Module 2: <br/>
+### Module 2: Debouncing and Method Used<br/>
 Mechanical switch bounce is the unintentional reaction from a single press on the button which results in multiple rapid transitions or bounces from one state to another before the desired state is finalized. This phenomenon is caused by the physical aspects of the switch, which determines the input of the digital circuits that will, in turn, produce the output. Some examples include the kinetic energy of the metal contact with the stationary contact, the unintended multiple reconnections of the contacts as they oscillate due to spring-like behavior, and the microscopic irregularities in the contact surfaces.  
 
 
