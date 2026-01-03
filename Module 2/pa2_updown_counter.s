@@ -21,7 +21,7 @@ _start:
 	LSL r10, r10, #8
 	ORR r11, r10, r9
 	STR r11, [r6]
-	BL debouncing
+	BL one_second
 	
 	LDR r2, [r5]	//read sw0
 	CMP r2, #0
@@ -43,6 +43,9 @@ MAIN_LOOP:
 	//reset
 	CMP r0, #1
 	BGT reset
+	
+	//timer
+	BL one_second
 	
 	//run
 	//sw0_updown
@@ -163,11 +166,16 @@ reset:
 	B MAIN_LOOP
 
 debouncing:
-        LDR     r3, =10000000              
+        LDR     r3, =50000              
 1:      SUBS    r3, r3, #1
         BNE     1b
         BX      lr
 
+one_second:
+        LDR     r3, =10000000              
+1:      SUBS    r3, r3, #1
+        BNE     1b
+        BX      lr
 
 pause:
 		LDR r3, =3
